@@ -4,6 +4,8 @@ from flask import Flask, jsonify
 
 app = Flask(__name__)
 last_measurement_time = None
+
+# Modify this GPIO pin to match your device's pin.
 dhtDevice = adafruit_dht.DHT11(board.D14)
 
 @app.route('/api/v1/temp+hum', methods=['GET'])
