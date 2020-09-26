@@ -27,4 +27,5 @@ def get_temperature_and_humidity():
         })
 
 if __name__ == '__main__':
+    # Modify host address and port. 
     app.run(host='192.168.1.138', port=5001)
