@@ -8,7 +8,7 @@ An android app that can work with the server.py.
 </h4>
 
 
-![](https://badgen.net/badge/Badgen/net/blue)
+![](https://badgen.net/badge/MinSDK/23/blue)
 
 <p align="center">
   <a href="#preview">Preview</a> •
